@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    margin: 5% 5%;
+    font-size: 24px;
+    color: #000303;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    box-sizing: border-box;
+}
+.produto-item-link{
+    text-transform: uppercase;
+    font-family: 'Averta-Bold';
+    color: #0b4c6f;
+    font-size: 12px;
+}
+.produto-imagem{
+    margin-top: 5%;
+    display: flex;
+}
+.produto-item-link{
+    display: flex;
+    align-items: center;
+    margin: 1% 4%;
+    width: 150px;
+}
