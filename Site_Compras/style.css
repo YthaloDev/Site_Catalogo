@@ -1,4 +1,5 @@
 *{
+    
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
@@ -42,7 +43,7 @@ section .catalog{
 }
 
 .titulo-produto{
-    margin-top: 200px;
+    margin-top: 100px;
     padding-bottom: 20px;
 
 }
@@ -73,4 +74,18 @@ section .texto-butao-produto{
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
+}
+
+.item-produto img{
+    width: 85%;
+}
+
+.item-produto h3{
+    width: 90%;
+}
+
+.item-produto p{
+    width: 90%;
+    font-style: italic;
+    color: #00000070;
 }
