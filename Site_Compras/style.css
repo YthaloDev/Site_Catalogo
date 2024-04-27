@@ -34,7 +34,10 @@ nav{
 .Link_Ythalo:hover{
     color: #00285f83;
 }
-
+.Link_Produto{
+    text-decoration: none;
+    color: white;
+}
 /* Catalogo Produtos */
 
 section .catalog{
@@ -70,7 +73,7 @@ section .item-produto{
 
 section .texto-butao-produto{
     height: 40%;
-    display: flex;
+    display:flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
